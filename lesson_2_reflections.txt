@@ -1,0 +1,6 @@
+#Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to use Git for saving milestones while working in Xcode.
+I might use it for working with creative writings.
+
+#What happens when you initialize a repository? Why do you need to do it?
+Running "git init" sets up git in a folder.  This needs to be run to use Git.  "Git status" shows the current status of a repository.
