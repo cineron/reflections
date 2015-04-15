@@ -4,3 +4,25 @@ I might use it for working with creative writings.
 
 #What happens when you initialize a repository? Why do you need to do it?
 Running "git init" sets up git in a folder.  This needs to be run to use Git.  "Git status" shows the current status of a repository.
+
+#How is the staging area different from the working directory and the repository? What value do you think it offers?
+"init" creates(operates on) a repository.
+"git add" and "git status" both work on staging area.
+"git status" shows you (operates on) what's in the working directory.
+
+#How can you use the staging area to make sure you have one commit per logical change?
+Using "git diff --staging" you can make sure that you are about to commit the changes that you want.
+
+#What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches help you stay oranized when you are trying experimental features or adding a new language.
+
+#How do the diagrams help you visualize the branch structure?
+Diagrams illustrate branches, orphans and current commits.
+
+#What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging to branches save the commits of both branches.  It's represented in the diagram to show the relationship to each commit's parent.
+
+#What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is much faster, but does not resolve conflicts.
+
+
